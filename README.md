@@ -2,17 +2,29 @@
 tugas ap2b M13 (python) [def data]
 
 def data():
+
     nama    = input("masukan nama anda  : ")
+    
     kelas   = input("masukan kelas anda : ")
+    
     npm     = int(input("masukan npm anda   : "))
+    
     uts     = int(input("Masukkan Nilai UTS: "))
+    
     uas     = int(input("Masukkan Nilai UAS: "))
+    
     tempat  = input("masukan tempat kuliah anda : ")
+    
     hobi    = input("masukan hobi anda : ")
+    
     tinggal = input("masukan tinggal anda : ")
+    
     jurusan = input("masukan jurusan anda : ")
+    
     ganjil =  list(input("masukan bilangan ganjil  : "))
+    
     Data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    
     print("++++++++++++++++++++++++++++++++++")
     
     print("nama anda",  nama)
